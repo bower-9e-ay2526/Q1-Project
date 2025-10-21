@@ -1,0 +1,192 @@
+ body {
+     font-family: "Merriweather", serif;;
+     background-image: url(https://i.pinimg.com/1200x/f6/08/96/f6089616615bebde37ce21317bf7cc5d.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 50px;
+     padding: 0;
+     color: #333;
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center ;
+
+}
+
+.header {
+
+	text-align: center;
+	margin: 5px auto;
+
+}
+
+.header img {
+
+	width: 110px;
+
+}
+.container {
+	width: 80%;
+	border: 1px solid #000000;
+	padding: 10px;
+	border-radius: 15px;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column; /* Stack boxes vertically */
+  	align-items: center; /* Center them horizontally */
+  	gap: 30px; /* Add space between boxes */
+}
+
+.box {
+	width: 80%; /* or 90% for wider layout */
+	max-width: 900px; /* prevents it from being too wide on big screens */
+	border: 1px solid #000000;
+	padding: 10px;
+	margin: 15px;
+	background-color:#d4e8cd ;
+	border-radius: 15px;
+	box-shadow: 5px 5px 1px 0px rgba(0,0,0,0.15);
+}
+
+#my-works {
+	text-align: center;
+	padding: 20px;
+}
+#my-works h3 {
+	background-color: ;
+	color: ;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap; /* allows the next project to go to the next line */
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	margin: 30px auto;
+	max-width: 900px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+.projects img {
+	width: 300px;
+	border-radius: 10px;
+	border: 2px dotted #999;
+	display: flex;
+	margin: auto;
+
+}
+
+.projects-info {
+	text-align: left;
+	max-width: 400px;
+}
+
+.projects-info h4 {
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.projects-info ul {
+	list-style: none;
+	padding: 0;
+	margin-left: 10px;
+}
+
+.projects-info li {
+	margin-bottom: 6px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* reduced from 15px */
+  max-width: 450px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px; /* slightly less padding */
+  background-color: #fdd8e6;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+/* Name + Email section */
+.name-email {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* reduced spacing */
+}
+
+.name-email label {
+  margin-bottom: 3px; /* smaller gap between label and input */
+  font-weight: 500;
+}
+
+.name-email input[type="text"],
+.name-email input[type="email"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Inputs, selects, textarea */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px; /* smaller padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 5px; /* slightly less space below */
+}
+
+/* Fieldset sections */
+fieldset {
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px; /* less space between radio/checkbox options */
+  align-items: center;
+  margin: 5px 0; /* reduced space around */
+}
+
+fieldset legend {
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 3px; /* closer to content */
+}
+
+/* Button */
+.submit-container {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="submit"] {
+  background-color: #ff8fc7;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff69b4;
+}
+}
